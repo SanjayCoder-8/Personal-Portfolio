@@ -75,7 +75,30 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:320px) {
+	svg text {
+		animation: stroke 5s infinite alternate;
+		stroke-width: 2;
+		stroke: #287AA0;
+		font-size: 15px;
+	}
+	svg{
+		width: 70%;
+	}
+	.avtar{
+		margin: 0;
+	}
+	.avtar img{
+		height: 12rem;
+	}
+	.button{
+		margin-left: 0;
+	}
+	footer{
+		margin:6rem 0 0 1rem ;
+	}
+}
+@media screen and (min-width:321px) and (max-width:500px){
 	svg text {
 		animation: stroke 5s infinite alternate;
 		stroke-width: 2;
