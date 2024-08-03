@@ -45,3 +45,12 @@ button{
     display: flex;
     margin-left:2rem;
 }
+@media screen and (max-width:810px) {
+    .avtar{
+		margin: 0;
+	}
+	.avtar img{
+		height: 12rem;
+	}
+    
+}
