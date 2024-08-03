@@ -113,7 +113,7 @@ a{
 	}
 	
 }
-@media screen and (min-width:801px) and (max-width:1024px){
+@media screen and (min-width:801px) and (max-width:1025px){
 	svg text{
 		font-size: 40px;
 	}
@@ -121,16 +121,16 @@ a{
 		margin-left: 20rem;
 	}
 }
-@media screen and (min-width:1025px) and (max-width:1440px)
+@media screen and (min-width:1026px) and (max-width:1440px)
 {
 	footer{
-		margin-left: 30rem;
+		margin-left: 28rem;
 	}
 	svg text{
-		font-size: 60px;
+		font-size: 50px;
 	}
 	.avtar img{
-		height: 25rem;
+		height: 20rem;
 	}
 }
 @media screen and (min-width:1441px){
