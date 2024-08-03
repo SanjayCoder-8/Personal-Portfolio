@@ -1,0 +1,77 @@
+body{
+    background-color: #000;
+}
+.nav div{
+    color: #fff;
+    margin-right: 2rem;
+}
+h2{
+    color: #fff;
+}
+.nav{
+    display: flex;
+    float: right;
+    margin-top: 1rem;
+}
+.avtar{
+    float: right;
+    margin: 8rem 7rem 0 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 50%; 
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #287AA0;
+	font-size: 50px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(40,122,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgba(40,122,160,1); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgba(40,122,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(72,138,204,1); stroke: rgba(40,122,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+.name{
+    margin: 10rem 0 0 3rem;
+}
+footer{
+    color: #fff;
+    margin-top: 10rem;
+    margin-left: 25rem;
+}
+#s1{
+	border: 3px solid #287AA0;
+	border-radius: 3rem;
+	width: 6rem;
+	height: 2rem;
+	background-color: black;
+	color: #fff;
+}
+#s2{
+	border: 3px solid #287AA0;
+	border-radius: 3rem;
+	width: 6rem;
+	height: 2rem;
+	background-color:#287AA0;
+	color: #000;
+}
+.button{
+	justify-content: center;
+	align-items: center;
+	margin-left: 19rem;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
