@@ -51,3 +51,8 @@ button{
 	}
     
 }
+@media screen and (min-width:1441px){
+	body{
+		font-size: 40px;
+	}
+}

@@ -75,7 +75,7 @@ a{
 	text-decoration: none;
 	color: #fff;
 }
-@media screen and (max-width:810px){
+@media screen and (max-width:500px){
 	svg text {
 		animation: stroke 5s infinite alternate;
 		stroke-width: 2;
@@ -95,6 +95,54 @@ a{
 		margin-left: 0;
 	}
 	footer{
-		margin:6rem 0 0 2rem ;
+		margin:6rem 0 0 1rem ;
+	}
+}
+@media screen and (min-width:501px) and (max-width:800px) {
+	svg text{
+		font-size: 30px;
+	}
+	footer{
+		margin-left: 10rem;
+	}
+	.avtar{
+		margin: 0;
+	}
+	.button{
+		margin-left: 10rem;
+	}
+	
+}
+@media screen and (min-width:801px) and (max-width:1024px){
+	svg text{
+		font-size: 40px;
+	}
+	footer{
+		margin-left: 20rem;
+	}
+}
+@media screen and (min-width:1025px) and (max-width:1440px)
+{
+	footer{
+		margin-left: 30rem;
+	}
+	svg text{
+		font-size: 60px;
+	}
+	.avtar img{
+		height: 25rem;
+	}
+}
+@media screen and (min-width:1441px){
+	body{
+		font-size: xx-large;
+	}
+	svg text{
+		font-size: 100px;
+	}
+	#s1,#s2{
+		width: 12rem;
+		height: 4rem;
+		font-size: 20px;
 	}
 }
